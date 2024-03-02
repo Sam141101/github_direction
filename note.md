@@ -34,9 +34,12 @@ Remote
   git remote add origin https://github.com/ Sam141101/github_direction.git
   Dinh danh cai duong link remote repo --> origin voi muc dich cho ngan gon hon
 
-                git push origin master
-                thay vi duong link remote repo thi gio thanh origin
+            git push origin master
+            Thay vi duong link remote repo thi gio thanh origin
         )
+
+git clone {link remote repo}: keo remote repo ve may
+Ex: git clone https://github.com/Sam141101/github_direction.git
 
 # note key
 
