@@ -61,6 +61,8 @@ Ex: git clone https://github.com/Sam141101/github_direction.git
 
 - git ignor: cho phep xac dinh file or folder git khong quan tam toi
 
+- Fork: lay 1 cai repo cua nguoi khac ve dung (co the xem, custom)
+
 # note key
 
 HEAD: la mot tham chieu den commit hien tai trong kho luu tru
