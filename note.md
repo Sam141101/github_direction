@@ -3,6 +3,8 @@
 Repository (Repo)
 Branch
 Conflict
+Local
+Remote
 
 # Commands
 
@@ -19,6 +21,7 @@ Conflict
 - git checkout -b {branch name} : tao ra 1 branch moi
 - git merge {branch name} : tong hop lai branch (gop code tu branch dev vao master/main)
 - git branch -d {branch name}: xoa 1 branch
+- git push: day code tai HEAD len remote repo
 
 # note key
 
