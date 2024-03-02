@@ -16,8 +16,8 @@ Remote
 
 - git init
 - git status : trang thai du an
-- git add : them su thay doi vao muc Index luu lai thoi diem cua du an
-- git reset: khong muon chuan bi luu
+- git add : them su thay doi vao muc Index, luu lai thoi diem cua du an
+- git reset: khong muon chuan bi luu (chuyen sang )
 - git commit : chinh thuc luu (qua trinh du an dang o dau)
 - git log: xem thoi diem duoc luu (danh sach cac commit)
 - git log --oneline : thay duoc danh sach commit mot cach gon hon
