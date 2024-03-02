@@ -34,8 +34,9 @@ Remote
   git remote add origin https://github.com/ Sam141101/github_direction.git
   Dinh danh cai duong link remote repo --> origin voi muc dich cho ngan gon hon
 
-            git push origin master
-            Thay vi duong link remote repo thi gio thanh origin
+            git push origin {branch name}
+                Ex: git push origin master
+                Thay vi duong link remote repo thi gio thanh origin
         )
 
   ** khi ma da gan link remote repo --> origin **
@@ -49,10 +50,16 @@ Ex: git clone https://github.com/Sam141101/github_direction.git
   ** Neu muon lay branch tu remote repo xuong local (branch name : staging) **
   Step 1: git checkout master
   Step 2: git fetch origin
-  Step 3: git checkout -b staging origin/staging (tao ra 1 cai staging giong voi staging tren remote repo)
+  Step 3:
 
-- git pull:
-  Neu muon merge or ket hop branch khac voi master
+  - git checkout -b {branch name} origin/{branch name}
+    Ex:git checkout -b staging origin/staging (tao ra 1 cai staging giong voi staging tren remote repo)
+
+- git pull: keo code tu remote repo xuong local remote va merge no
+
+  Neu muon merge or ket hop branch khac voi master (co the dung Pull Requests o tren website github)
+
+- git ignor: cho phep xac dinh file or folder git khong quan tam toi
 
 # note key
 
