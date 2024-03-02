@@ -1,3 +1,9 @@
+# Working Process
+
+Thu muc local bao gom 3 trees: + Working Directory (Thu muc dang lam vie) + Index (Chi muc): Dong vai tro nhu mot Staging Area + HEAD: Tro den commit gan nhat cua minh
+
+    Working Directory ---- (add) ----> Index ---- (commit) ----> HEAD
+
 # Terms
 
 Repository (Repo)
@@ -10,7 +16,7 @@ Remote
 
 - git init
 - git status : trang thai du an
-- git add : luu lai thoi diem cua du an
+- git add : them su thay doi vao muc Index luu lai thoi diem cua du an
 - git reset: khong muon chuan bi luu
 - git commit : chinh thuc luu (qua trinh du an dang o dau)
 - git log: xem thoi diem duoc luu (danh sach cac commit)
