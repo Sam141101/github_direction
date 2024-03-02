@@ -44,6 +44,16 @@ Remote
 git clone {link remote repo}: keo remote repo ve may
 Ex: git clone https://github.com/Sam141101/github_direction.git
 
+- git push -u origin {branch name} : Day branch moi tao o local len remote repo
+  Ex: git push -u origin dev
+  ** Neu muon lay branch tu remote repo xuong local (branch name : staging) **
+  Step 1: git checkout master
+  Step 2: git fetch origin
+  Step 3: git checkout -b staging origin/staging (tao ra 1 cai staging giong voi staging tren remote repo)
+
+- git pull:
+  Neu muon merge or ket hop branch khac voi master
+
 # note key
 
 HEAD: la mot tham chieu den commit hien tai trong kho luu tru
