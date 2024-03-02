@@ -38,6 +38,9 @@ Remote
             Thay vi duong link remote repo thi gio thanh origin
         )
 
+  ** khi ma da gan link remote repo --> origin **
+  git push origin master --> git push
+
 git clone {link remote repo}: keo remote repo ve may
 Ex: git clone https://github.com/Sam141101/github_direction.git
 
