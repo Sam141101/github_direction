@@ -15,6 +15,8 @@ Repository (Repo)
 - git checkout {branch name} : su dung de chuyen doi cac nhanh trong git
 - git branch: xac dinh branch minh dang o
 - git checkout -b {branch name} : tao ra 1 branch moi
+- git merge {branch name} : tong hop lai branch (gop code tu branch dev vao master/main)
+- git branch -d {branch name}: xoa 1 branch
 
 # note key
 
