@@ -22,6 +22,21 @@ Remote
 - git merge {branch name} : tong hop lai branch (gop code tu branch dev vao master/main)
 - git branch -d {branch name}: xoa 1 branch
 - git push: day code tai HEAD len remote repo
+  Way 1:
+  (
+  Ex: git push duong link repo {branch name}
+  git push https://github.com/Sam141101/github_direction.git master
+  )
+  Way 2:
+  (
+  Ex:
+  git remote add {remote repo name} {link remote repo}
+  git remote add origin https://github.com/ Sam141101/github_direction.git
+  Dinh danh cai duong link remote repo --> origin voi muc dich cho ngan gon hon
+
+                git push origin master
+                thay vi duong link remote repo thi gio thanh origin
+        )
 
 # note key
 
